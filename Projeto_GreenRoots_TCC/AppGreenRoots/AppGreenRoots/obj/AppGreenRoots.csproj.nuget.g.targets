@@ -2,6 +2,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)system.text.json\8.0.0\buildTransitive\net6.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\8.0.0\buildTransitive\net6.0\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.io.ports\11.0.0-preview.1.26104.118\buildTransitive\netcoreapp2.0\System.IO.Ports.targets" Condition="Exists('$(NuGetPackageRoot)system.io.ports\11.0.0-preview.1.26104.118\buildTransitive\netcoreapp2.0\System.IO.Ports.targets')" />
     <Import Project="$(NuGetPackageRoot)sourcegear.sqlite3\3.50.4.2\buildTransitive\net8.0\SourceGear.sqlite3.targets" Condition="Exists('$(NuGetPackageRoot)sourcegear.sqlite3\3.50.4.2\buildTransitive\net8.0\SourceGear.sqlite3.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Options.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />

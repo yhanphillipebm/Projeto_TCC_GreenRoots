@@ -56,6 +56,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[11.0.0-preview.1.26104.118, )"
+            },
+            "iTextSharp.LGPLv2.Core": {
+              "target": "Package",
+              "version": "[3.7.12, )"
             }
           },
           "imports": [
